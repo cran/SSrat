@@ -1,0 +1,3 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(sna, gplot)
+importFrom(plyr, rbind.fill)

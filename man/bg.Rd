@@ -1,0 +1,29 @@
+\name{bg}
+\alias{bg}
+\docType{data}
+\title{
+%%   ~~ data name/kind ... ~~
+Background data of 8 groups from a longitudinal study on Dutch primary schools
+}
+\description{
+Background data of the children, complementary to the files with the rating data Ss96.rat, Ss97.rat and Ss98.rat. This data file contains 205 observations of  4 variables. Measurements of these Dutch primary school children were taken three times, in 1996, 1997 and 1998. In 1996, the sample consisted of 193 students (91 boys, 96 girls, six gender unknown); 189 students were involved in 1997 (90 boys, 95 girls, 4 gender unknown); and in 1998, 189 students participated (91 boys, 98 girls). Average age in 1998 was 11.3 years, with ages ranging from 11 to 13 years. The participants were asked to rate all their classmates on a seven-point scale: dislike very much, dislike much, dislike, ordinary, like, like much, and like very much.
+%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+}
+\usage{data("bg")}
+\format{
+  A data frame with 205 observations of 4 variables.\cr
+  \describe{
+    \item{\code{groupid}}{a numeric vector, identifying the first group level.}
+    \item{\code{respid}}{a numeric vector, identifying the individual.}
+    \item{\code{sex}}{Sex of the respondents, 1 = Male, 2 = Female}
+    \item{\code{age}}{Age of the respondents}
+  }
+}
+\source{
+%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Maassen, G.H., Van Boxtel, H.W., & Goossens, F.A. (2005). Reliabilty of  nomination and two-dimensional rating scale methods for sociometric status determination. Journal of Applied Developmental Psychology, 26, 51-68.
+}
+\examples{
+data(Ss98.rat)
+}
+\keyword{datasets}
